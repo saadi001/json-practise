@@ -10,7 +10,7 @@ function displyPost(data){
     for(const detail of data){
         // console.log(detail);
         const div = document.createElement('post-container');
-        div.classList.add('stl');
+        div.classList.add('post');
         div.innerHTML = `
         <h3>User-${detail.id}</h3>
         <h4>post: ${detail.title}</h4>
