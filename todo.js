@@ -11,7 +11,7 @@ function displayTodo(todos){
         const todoDiv = document.createElement('todoDiv');
         todoDiv.innerHTML = `
         <h2>userId: ${todo.id}</h2>
-        <h4>title: ${todo.title}</h4git add .>
+        <h4>title: ${todo.title}</h4>
         <p>Is completed: ${todo.completed === true ? 'completed' : 'not completed'}</p>
         `;
         todoContainer.appendChild(todoDiv);
