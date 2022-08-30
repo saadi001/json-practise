@@ -6,17 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Countries</title>
     <style>
+        #country-container{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 15px;
+        }
         .country{
             background-color: beige;
             margin: 10px;
             padding: 10px;
             border-radius: 5px;
+            border: 2px solid lightcoral;
+            
         }
     </style>
 </head>
 <body>
     <section>
         <h2>Country name list</h2>
+        <div id="details-country">
+
+        </div>
         <div id="country-container">
 
         </div>
