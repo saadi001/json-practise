@@ -11,7 +11,7 @@ const displayRandom = users =>{
         const userDiv = document.createElement('div');
         userDiv.classList.add('user-style')
         userDiv.innerHTML = `
-            <a href="${user.picture.medium}">click to see picture</a>
+        <img src="${user.picture.medium}" alt="">
             <h3>Name: ${user.name.first} ${user.name.last}</h3>
             <h5>email: ${user.email} </h5>
             <h5>Gender: ${user.gender}</h5>
