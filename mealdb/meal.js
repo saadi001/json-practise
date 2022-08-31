@@ -58,4 +58,4 @@ const displayMealDetail = meal =>{
     detailContainer.appendChild(mealDiv);
 }
 
-loadMeals('a');
+loadMeals('');
